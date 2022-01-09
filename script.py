@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 links= []
 link_to_download= ""
-numberOfVideos=int(input("Enter the number of videos : "))
+numberOfVideos=int(input("Enter the number of videos you want to download: "))
 
 for i in range(0,numberOfVideos):
     link_to_download=input("Enter link here: ")
